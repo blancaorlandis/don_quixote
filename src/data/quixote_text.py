@@ -17,7 +17,7 @@ class QX_Text():
         > output: text string
         '''
         main_path = get_module_path()
-        path = main_path+'/data/raw/el_quixote_{}.txt'.format(part)
+        path = main_path+'/don_quixote/data/raw/el_quixote_{}.txt'.format(part)
         return open(path, 'r', encoding='utf-8').read()
     
     
